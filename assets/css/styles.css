@@ -1,0 +1,92 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background-image: url(../../assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 65px;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+  #promo {
+    margin-top: 75px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #promo.jumbotron {
+    padding: 20px;
+  }
+}
+
+.container h1 {
+  padding-top: 20px;
+}
+
+.container.site-section {
+  text-align: center;
+  padding: 50px 0 60px;
+}
+
+#welcome {
+  max-width: 800px;
+  font-size: 20px;
+  padding: 40px 0px;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.fa.fa-birthday-cake {
+  font-size: 30px;
+  padding: 10px;
+  color: #e57fb4;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.7;
+  font-size: large;
+}
+
+.fa.fa-heart-o {
+  font-size: 40px;
+  padding: 10px;
+  color: #e57fb4;
+}
+
+.fa.fa-cart-plus {
+  font-size: 40px;
+  padding: 10px;
+  color: #e57fb4;
+}
+
+.dark-sec {
+  background-color: #e8fcfe;
+}
+
+#logo {
+  max-height: 30px;
+  margin: 7px;
+  margin-top: 0;
+}
+
+.navbar.navbar-light.navbar-expand-md.fixed-top {
+  background-color: white;
+}
+
